@@ -1,0 +1,16 @@
+.goods{
+  display: flex;
+  margin :0px 50px 0px 50px;
+  flex-wrap: wrap;
+}
+
+.goodsItem {
+  width: 180px;
+  height:250px;
+}
+
+.goodsImageArea {
+  width: calc(100% - 10px);
+  height:200px;
+  margin: 5px 5px 0px 5px;
+}

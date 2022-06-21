@@ -1,0 +1,23 @@
+.category {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+.category>.leftPage, .category>.rightPage {
+  display: inline-block;
+  width:30px;
+  text-align: center;
+  align-self: center;
+  user-select: none;
+}
+
+.category>.categoryItem {
+  display: inline-block;
+  width:120px;
+  padding:5px 0px 5px 0px;
+  text-align: center;
+  margin:10px;
+  background-color: #fff8b6;
+  border:1px solid black;
+  user-select: none;
+}

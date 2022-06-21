@@ -1,0 +1,19 @@
+.top {
+  background-color:green;
+  height: 100px;
+  width:100%;
+}
+
+.center {
+  width:100%;
+  height: calc(100% - 100px);
+  background-color: beige;
+}
+
+.bottom {
+  width:100%;
+}
+
+.main {
+  position:absolute;
+}
